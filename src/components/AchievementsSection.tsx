@@ -68,10 +68,10 @@ const AchievementsSection = () => {
         <div className="mt-24">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold mb-4">
-              <span className="gradient-text">Giving Back</span> to Society
+              <span className="holographic-text">Giving Back</span> to Society
             </h2>
             <p className="text-xl text-muted-foreground max-w-4xl mx-auto">
-              We believe in making a positive impact beyond technology. We are committed to giving back to society by supporting orphanages and religious institutions in our community.
+              We believe in making a positive impact beyond technology. We are committed to <span className="text-primary font-semibold">giving back 10% of our revenue</span> by supporting orphanages and religious institutions in our community.
             </p>
           </div>
 
