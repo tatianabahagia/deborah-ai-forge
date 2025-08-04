@@ -75,30 +75,6 @@ const HeroSection = () => {
               View AI Portfolio
             </Button>
           </div>
-
-          {/* Stats */}
-          <div className="grid grid-cols-1 md:grid-cols-4 gap-6 mt-16">
-            <div className="glass rounded-lg p-6 ai-glow">
-              <div className="text-3xl font-bold holographic-text">100+</div>
-              <div className="text-muted-foreground">AI Models Deployed</div>
-              <div className="text-xs text-primary mt-1 typing-indicator">● Live Processing</div>
-            </div>
-            <div className="glass rounded-lg p-6 ai-glow">
-              <div className="text-3xl font-bold holographic-text">99.9%</div>
-              <div className="text-muted-foreground">AI Accuracy Rate</div>
-              <div className="text-xs text-accent mt-1 typing-indicator">● Real-time Learning</div>
-            </div>
-            <div className="glass rounded-lg p-6 ai-glow">
-              <div className="text-3xl font-bold holographic-text">24/7</div>
-              <div className="text-muted-foreground">Autonomous AI Systems</div>
-              <div className="text-xs text-secondary mt-1 typing-indicator">● Self-optimizing</div>
-            </div>
-            <div className="glass rounded-lg p-6 ai-glow">
-              <div className="text-3xl font-bold holographic-text">5+</div>
-              <div className="text-muted-foreground">Years AI Research</div>
-              <div className="text-xs text-primary mt-1 typing-indicator">● Continuous Innovation</div>
-            </div>
-          </div>
         </div>
       </div>
     </section>
