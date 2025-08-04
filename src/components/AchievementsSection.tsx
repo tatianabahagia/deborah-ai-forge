@@ -3,8 +3,14 @@ import { Trophy, Star, Rocket, Lightbulb, Zap } from "lucide-react";
 const AchievementsSection = () => {
   const achievements = [
     {
-      icon: Trophy,
+      icon: Zap,
       emoji: "🏆",
+      title: "5 International AI Hackathons",
+      description: "Joined 5 international AI hackathons in 1.5 months - showcasing rapid innovation and AI expertise"
+    },
+    {
+      icon: Trophy,
+      emoji: "🥇",
       title: "Top 12 Finalist",
       description: "Alibabacloud Indonesia Hackathon 2025"
     },
