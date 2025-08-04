@@ -8,7 +8,7 @@ const PortfolioSection = () => {
     description: "An intelligent travel planning system powered by GPT-4 and custom neural networks that creates personalized itineraries based on user preferences. Integrated with Google Maps AI for optimal routing and machine learning algorithms for smart recommendations.",
     features: [
       { icon: Navigation, text: "AI-powered smart route planning with Google Maps integration" },
-      { icon: MessageSquare, text: "GPT-4 powered personalized recommendations engine" },
+      { icon: MessageSquare, text: "Intelligent conversation processing and natural language understanding" },
       { icon: Calendar, text: "Dynamic scheduling using machine learning algorithms" },
       { icon: Clock, text: "Real-time weather and traffic AI predictions" },
       { icon: DollarSign, text: "Budget optimization using predictive analytics" },
