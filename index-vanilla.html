@@ -1,0 +1,864 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deborah Tech - AI Solutions</title>
+    <meta name="description" content="Transform Your Business with Intelligent AI Solutions">
+    <meta name="author" content="Deborah Tech">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    
+    <!-- Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/lucide@latest/dist/umd/lucide.js" integrity="sha384-..." crossorigin="anonymous">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav id="navigation" class="nav-container">
+        <div class="nav-content">
+            <div class="nav-wrapper">
+                <!-- Logo -->
+                <div class="nav-logo">
+                    <span class="logo-text">Deborah Tech</span>
+                </div>
+
+                <!-- Desktop Navigation -->
+                <div class="nav-desktop">
+                    <div class="nav-links">
+                        <a href="#home" class="nav-link">Home</a>
+                        <a href="#services" class="nav-link">Services</a>
+                        <a href="#portfolio" class="nav-link">Portfolio</a>
+                        <a href="#about" class="nav-link">About</a>
+                        <a href="#contact" class="nav-link">Contact</a>
+                    </div>
+                </div>
+
+                <!-- CTA Button -->
+                <div class="nav-cta">
+                    <a href="mailto:deborahhuda8@gmail.com" class="btn btn-cta">Get Started</a>
+                </div>
+
+                <!-- Mobile menu button -->
+                <div class="nav-mobile-btn">
+                    <button id="mobile-menu-btn" class="mobile-menu-toggle">
+                        <span class="menu-icon" id="menu-icon">☰</span>
+                        <span class="close-icon" id="close-icon" style="display: none;">✕</span>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Mobile Navigation -->
+            <div id="mobile-menu" class="nav-mobile">
+                <div class="mobile-menu-content">
+                    <a href="#home" class="mobile-nav-link">Home</a>
+                    <a href="#services" class="mobile-nav-link">Services</a>
+                    <a href="#portfolio" class="mobile-nav-link">Portfolio</a>
+                    <a href="#about" class="mobile-nav-link">About</a>
+                    <a href="#contact" class="mobile-nav-link">Contact</a>
+                    <div class="mobile-cta">
+                        <a href="mailto:deborahhuda8@gmail.com" class="btn btn-cta btn-full">Get Started</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <!-- Background Effects -->
+        <div class="hero-bg-effects">
+            <div class="ai-circuit-bg"></div>
+            <div class="neural-network-bg"></div>
+            <div class="bg-blob bg-blob-1"></div>
+            <div class="bg-blob bg-blob-2"></div>
+            <div class="bg-blob bg-blob-3"></div>
+            
+            <!-- Floating AI Brain -->
+            <div class="floating-brain floating-brain-1">
+                <img src="src/assets/ai-brain-hero.jpg" alt="AI Brain" class="brain-image">
+            </div>
+            
+            <!-- Large AI Brain Background -->
+            <div class="floating-brain floating-brain-2">
+                <img src="src/assets/floating-ai-brain.jpg" alt="Floating AI Brain" class="brain-image">
+            </div>
+            
+            <!-- AI Data Flow Elements -->
+            <div class="data-flow data-flow-1"></div>
+            <div class="data-flow data-flow-2"></div>
+            <div class="data-flow data-flow-3"></div>
+        </div>
+
+        <div class="hero-content">
+            <div class="hero-inner">
+                <!-- Badge -->
+                <div class="hero-badge">
+                    <div class="ai-icon">
+                        <span>AI</span>
+                    </div>
+                    <span class="badge-text">Advanced AI Technology Leader</span>
+                    <div class="status-dots">
+                        <div class="status-dot status-dot-1"></div>
+                        <div class="status-dot status-dot-2"></div>
+                        <div class="status-dot status-dot-3"></div>
+                    </div>
+                </div>
+
+                <!-- Main Heading -->
+                <h1 class="hero-title">
+                    <span class="title-line">Transform Your Business</span>
+                    <span class="title-line holographic-text">with Intelligent AI Solutions</span>
+                </h1>
+
+                <!-- Subtitle -->
+                <p class="hero-subtitle">
+                    We specialize in creating <span class="text-primary">enterprise-grade AI solutions</span>, 
+                    intelligent chatbots, and automation systems that revolutionize how businesses operate and engage with customers using <span class="text-accent">cutting-edge machine learning</span>.
+                </p>
+
+                <!-- CTA Buttons -->
+                <div class="hero-cta">
+                    <button class="btn btn-cta btn-lg hero-btn" onclick="scrollToSection('services')">
+                        Explore Our AI Services
+                        <span class="btn-arrow">→</span>
+                    </button>
+                    <button class="btn btn-glass btn-lg" onclick="scrollToSection('portfolio')">
+                        View AI Portfolio
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- AI Brain Showcase -->
+    <section class="ai-showcase">
+        <div class="ai-showcase-bg">
+            <div class="neural-network-bg"></div>
+            <div class="ai-circuit-bg"></div>
+        </div>
+        
+        <div class="ai-showcase-content">
+            <!-- Central AI Brain -->
+            <div class="ai-brain-central">
+                <img src="src/assets/ai-brain-hero.jpg" alt="AI Brain Core" class="central-brain">
+                <div class="brain-ring brain-ring-1"></div>
+                <div class="brain-ring brain-ring-2"></div>
+                <div class="brain-ring brain-ring-3"></div>
+            </div>
+            
+            <!-- Data Nodes -->
+            <div class="data-node data-node-1">
+                <div class="node-pulse"></div>
+            </div>
+            <div class="data-node data-node-2">
+                <div class="node-pulse"></div>
+            </div>
+            <div class="data-node data-node-3">
+                <div class="node-pulse"></div>
+            </div>
+            <div class="data-node data-node-4">
+                <div class="node-pulse"></div>
+            </div>
+            
+            <!-- Floating Side Brains -->
+            <div class="side-brain side-brain-left">
+                <img src="src/assets/floating-ai-brain.jpg" alt="AI Brain Left" class="side-brain-img">
+            </div>
+            <div class="side-brain side-brain-right">
+                <img src="src/assets/floating-ai-brain.jpg" alt="AI Brain Right" class="side-brain-img">
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services-section">
+        <div class="container">
+            <!-- Section Header -->
+            <div class="section-header">
+                <h2 class="section-title">
+                    Our <span class="holographic-text">Advanced AI Services</span>
+                </h2>
+                <p class="section-subtitle">
+                    Enterprise-grade AI solutions powered by <span class="text-primary">machine learning</span>, 
+                    <span class="text-accent">neural networks</span>, and 
+                    <span class="text-secondary">deep learning algorithms</span> tailored to transform your business operations
+                </p>
+            </div>
+
+            <!-- Services Grid -->
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="neural-network-bg"></div>
+                    <div class="service-content">
+                        <div class="service-header">
+                            <div class="service-icon-wrapper">
+                                <div class="service-emoji">🤖</div>
+                                <div class="ping-dot"></div>
+                            </div>
+                            <h3 class="service-title">Intelligent Chatbots</h3>
+                            <div class="ai-badge">
+                                <span>AI POWERED</span>
+                            </div>
+                        </div>
+                        
+                        <p class="service-description">
+                            Advanced conversational AI powered by GPT-4 and custom neural networks that understand context and provide personalized responses to enhance customer engagement.
+                        </p>
+
+                        <ul class="service-features">
+                            <li class="feature-item">
+                                <div class="feature-dot"></div>
+                                <span>Natural Language Processing with 99.9% accuracy</span>
+                            </li>
+                            <li class="feature-item">
+                                <div class="feature-dot"></div>
+                                <span>Multi-platform Integration (Web, Mobile, Slack, Teams)</span>
+                            </li>
+                            <li class="feature-item">
+                                <div class="feature-dot"></div>
+                                <span>24/7 Intelligent Customer Support</span>
+                            </li>
+                            <li class="feature-item">
+                                <div class="feature-dot"></div>
+                                <span>Custom Training with Machine Learning Analytics</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="service-card">
+                    <div class="neural-network-bg"></div>
+                    <div class="service-content">
+                        <div class="service-header">
+                            <div class="service-icon-wrapper">
+                                <div class="service-emoji">⚡</div>
+                                <div class="ping-dot"></div>
+                            </div>
+                            <h3 class="service-title">AI Process Automation</h3>
+                            <div class="ai-badge">
+                                <span>AI POWERED</span>
+                            </div>
+                        </div>
+                        
+                        <p class="service-description">
+                            Streamline your business processes with intelligent RPA and machine learning automation that adapts and learns from your workflows using advanced algorithms.
+                        </p>
+
+                        <ul class="service-features">
+                            <li class="feature-item">
+                                <div class="feature-dot"></div>
+                                <span>AI-powered Process Optimization</span>
+                            </li>
+                            <li class="feature-item">
+                                <div class="feature-dot"></div>
+                                <span>Intelligent Workflow Automation</span>
+                            </li>
+                            <li class="feature-item">
+                                <div class="feature-dot"></div>
+                                <span>Predictive Data Analysis & Deep Learning Insights</span>
+                            </li>
+                            <li class="feature-item">
+                                <div class="feature-dot"></div>
+                                <span>Seamless Integration with Enterprise Systems</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="service-card">
+                    <div class="neural-network-bg"></div>
+                    <div class="service-content">
+                        <div class="service-header">
+                            <div class="service-icon-wrapper">
+                                <div class="service-emoji">🧠</div>
+                                <div class="ping-dot"></div>
+                            </div>
+                            <h3 class="service-title">Custom AI & Machine Learning</h3>
+                            <div class="ai-badge">
+                                <span>AI POWERED</span>
+                            </div>
+                        </div>
+                        
+                        <p class="service-description">
+                            Bespoke neural networks and AI solutions designed specifically for your unique business challenges using TensorFlow, PyTorch, and cutting-edge ML frameworks.
+                        </p>
+
+                        <ul class="service-features">
+                            <li class="feature-item">
+                                <div class="feature-dot"></div>
+                                <span>Custom Neural Network Development</span>
+                            </li>
+                            <li class="feature-item">
+                                <div class="feature-dot"></div>
+                                <span>Industry-Specific AI Models (Healthcare, Finance, E-commerce)</span>
+                            </li>
+                            <li class="feature-item">
+                                <div class="feature-dot"></div>
+                                <span>Scalable Cloud Architecture (AWS, Azure, GCP)</span>
+                            </li>
+                            <li class="feature-item">
+                                <div class="feature-dot"></div>
+                                <span>MLOps & Continuous Model Improvement</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="service-card">
+                    <div class="neural-network-bg"></div>
+                    <div class="service-content">
+                        <div class="service-header">
+                            <div class="service-icon-wrapper">
+                                <div class="service-emoji">🚀</div>
+                                <div class="ping-dot"></div>
+                            </div>
+                            <h3 class="service-title">Autonomous AI Agents</h3>
+                            <div class="ai-badge">
+                                <span>AI POWERED</span>
+                            </div>
+                        </div>
+                        
+                        <p class="service-description">
+                            Next-generation autonomous AI systems that can make complex decisions, perform sophisticated tasks, and adapt to changing environments with minimal human intervention.
+                        </p>
+
+                        <ul class="service-features">
+                            <li class="feature-item">
+                                <div class="feature-dot"></div>
+                                <span>Autonomous Decision-Making with Reinforcement Learning</span>
+                            </li>
+                            <li class="feature-item">
+                                <div class="feature-dot"></div>
+                                <span>Multi-Agent Coordination & Swarm Intelligence</span>
+                            </li>
+                            <li class="feature-item">
+                                <div class="feature-dot"></div>
+                                <span>Self-Learning & Adaptive Capabilities</span>
+                            </li>
+                            <li class="feature-item">
+                                <div class="feature-dot"></div>
+                                <span>Goal-Oriented Behavior with Strategic Planning</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio-section">
+        <div class="container">
+            <!-- Section Header -->
+            <div class="section-header">
+                <h2 class="section-title">
+                    Featured <span class="holographic-text">AI Projects</span>
+                </h2>
+                <p class="section-subtitle">
+                    Showcasing our cutting-edge <span class="text-primary">machine learning applications</span> and 
+                    <span class="text-accent">neural network solutions</span> across different industries
+                </p>
+            </div>
+
+            <!-- Featured Project -->
+            <div class="featured-project">
+                <div class="project-badge">
+                    <span>Featured Project</span>
+                </div>
+                
+                <div class="project-content">
+                    <div class="project-info">
+                        <h3 class="project-title gradient-text">AI Travel Itinerary Generator</h3>
+                        <p class="project-description">
+                            An intelligent travel planning system powered by GPT-4 and custom neural networks that creates personalized itineraries based on user preferences. Integrated with Google Maps AI for optimal routing and machine learning algorithms for smart recommendations.
+                        </p>
+
+                        <div class="project-features">
+                            <h4 class="features-title">Key Features:</h4>
+                            <div class="features-list">
+                                <div class="feature-item">
+                                    <span class="feature-icon">🧭</span>
+                                    <span>AI-powered smart route planning with Google Maps integration</span>
+                                </div>
+                                <div class="feature-item">
+                                    <span class="feature-icon">💬</span>
+                                    <span>Intelligent conversation processing and natural language understanding</span>
+                                </div>
+                                <div class="feature-item">
+                                    <span class="feature-icon">📅</span>
+                                    <span>Dynamic scheduling using machine learning algorithms</span>
+                                </div>
+                                <div class="feature-item">
+                                    <span class="feature-icon">⏰</span>
+                                    <span>Real-time weather and traffic AI predictions</span>
+                                </div>
+                                <div class="feature-item">
+                                    <span class="feature-icon">💰</span>
+                                    <span>Budget optimization using predictive analytics</span>
+                                </div>
+                                <div class="feature-item">
+                                    <span class="feature-icon">📍</span>
+                                    <span>Multi-destination planning with neural pathfinding</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="project-technologies">
+                            <h4 class="tech-title">Technologies:</h4>
+                            <div class="tech-tags">
+                                <span class="tech-tag">ChatGPT-4 API</span>
+                                <span class="tech-tag">Google Maps AI API</span>
+                                <span class="tech-tag">TensorFlow.js</span>
+                                <span class="tech-tag">React.js</span>
+                                <span class="tech-tag">Node.js</span>
+                                <span class="tech-tag">MongoDB</span>
+                                <span class="tech-tag">TypeScript</span>
+                                <span class="tech-tag">Express.js</span>
+                                <span class="tech-tag">Machine Learning</span>
+                            </div>
+                        </div>
+
+                        <div class="project-buttons">
+                            <button class="btn btn-gradient btn-lg">
+                                ▶ Watch Demo Video
+                            </button>
+                            <a href="mailto:deborahhuda8@gmail.com" class="btn btn-glass btn-lg">
+                                🔗 Get My AI Solution
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="project-demo">
+                        <div class="demo-container">
+                            <div class="video-wrapper">
+                                <iframe
+                                    src="https://www.youtube.com/embed/8KXOF53Jx6Y"
+                                    title="AI Travel Itinerary Generator Demo"
+                                    frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen>
+                                </iframe>
+                            </div>
+                            
+                            <div class="video-overlay">
+                                <div class="overlay-indicator">
+                                    <div class="ping-dot"></div>
+                                    <span>AI Demo Video</span>
+                                </div>
+                                <p>Watch our AI travel planning system in action</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Other Projects -->
+            <div class="other-projects">
+                <h3 class="projects-title">Other <span class="holographic-text">AI Solutions</span></h3>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <div class="neural-network-bg"></div>
+                        <div class="card-content">
+                            <div class="card-header">
+                                <div class="card-icon">
+                                    <span>🤖</span>
+                                </div>
+                                <div class="card-info">
+                                    <h4 class="card-title">Intelligent Customer Support Bot</h4>
+                                    <span class="card-category">Chatbot Solutions</span>
+                                </div>
+                                <div class="card-status">
+                                    <div class="status-indicator"></div>
+                                </div>
+                            </div>
+                            <p class="card-description">Advanced chatbot system with natural language processing for automated customer service</p>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="neural-network-bg"></div>
+                        <div class="card-content">
+                            <div class="card-header">
+                                <div class="card-icon">
+                                    <span>🤖</span>
+                                </div>
+                                <div class="card-info">
+                                    <h4 class="card-title">Business Process Automation</h4>
+                                    <span class="card-category">Automation Solutions</span>
+                                </div>
+                                <div class="card-status">
+                                    <div class="status-indicator"></div>
+                                </div>
+                            </div>
+                            <p class="card-description">AI-powered automation system that streamlines repetitive business tasks and workflows</p>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="neural-network-bg"></div>
+                        <div class="card-content">
+                            <div class="card-header">
+                                <div class="card-icon">
+                                    <span>🤖</span>
+                                </div>
+                                <div class="card-info">
+                                    <h4 class="card-title">Agentic AI Assistant</h4>
+                                    <span class="card-category">Agentic AI</span>
+                                </div>
+                                <div class="card-status">
+                                    <div class="status-indicator"></div>
+                                </div>
+                            </div>
+                            <p class="card-description">Autonomous AI agent that can perform complex tasks and make decisions independently</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Portfolio CTA -->
+            <div class="portfolio-cta">
+                <div class="cta-card">
+                    <div class="neural-network-bg"></div>
+                    <div class="cta-content">
+                        <h3 class="cta-title">Ready to Build Your <span class="holographic-text">AI Solution?</span></h3>
+                        <p class="cta-description">
+                            Let's create intelligent AI applications powered by <span class="text-primary">machine learning</span> that transform your business processes and enhance customer experiences with <span class="text-accent">enterprise-grade automation</span>
+                        </p>
+                        <div class="cta-buttons">
+                            <a href="mailto:deborahhuda8@gmail.com" class="btn btn-cta btn-lg">Start Your AI Project</a>
+                            <a href="mailto:deborahhuda8@gmail.com" class="btn btn-glass btn-lg">Schedule AI Consultation</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials-section">
+        <div class="container">
+            <!-- Trusted By -->
+            <div class="trusted-by">
+                <h2 class="trusted-title">Trusted by Leading Organizations</h2>
+                <p class="trusted-subtitle">We're proud to have worked with these amazing clients.</p>
+                
+                <div class="clients-grid">
+                    <div class="client-card">
+                        <div class="client-name">National Changhua University of Education</div>
+                    </div>
+                    <div class="client-card">
+                        <div class="client-name">BNG Marketing Enterprise SDN BHD</div>
+                    </div>
+                    <div class="client-card">
+                        <div class="client-name">Centaurus Enterprises (S) Pte Ltd</div>
+                    </div>
+                </div>
+                
+                <p class="join-text">Ready to join our growing list of satisfied clients?</p>
+                <div class="join-cta">
+                    <a href="mailto:deborahhuda8@gmail.com" class="cta-link">Start Your Project Today</a>
+                </div>
+            </div>
+
+            <!-- Testimonials -->
+            <div class="section-header">
+                <h2 class="section-title">
+                    What Our <span class="gradient-text">Clients Say</span>
+                </h2>
+                <p class="section-subtitle">
+                    Don't just take our word for it. Here's what our satisfied clients have to say about working with us.
+                </p>
+            </div>
+
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="quote-icon">❝</div>
+                    
+                    <p class="testimonial-content">
+                        "They're really professional in designing a good website. Take account of our concerns and brainstroming idea was fun experience for me. Fast and responsive. Thank you and the team. God bless you.😄"
+                    </p>
+
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <span>R</span>
+                        </div>
+                        <div class="author-info">
+                            <div class="author-name">Rasidah Johar</div>
+                            <div class="author-role">Digital Artist & Webcomic Artist</div>
+                            <div class="author-rating">
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="quote-icon">❝</div>
+                    
+                    <div class="testimonial-content">
+                        <p id="testimonial-2-content">
+                            "I highly recommend Deborah Tatia, a dynamic team of young entrepreneurs specializing in mobile application and website development. Their swift, efficient, and customized approach to digital solutions..."
+                        </p>
+                        <button id="testimonial-2-toggle" class="read-more-btn" onclick="toggleTestimonial(2)">Read more</button>
+                    </div>
+
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <span>A</span>
+                        </div>
+                        <div class="author-info">
+                            <div class="author-name">Andrew Lo</div>
+                            <div class="author-role">Entrepreneurial Management Consultant, Practitioner & Trainer in Retail, Food Services and Franchising</div>
+                            <div class="author-rating">
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="quote-icon">❝</div>
+                    
+                    <p class="testimonial-content">
+                        "I've engaged Deborah for a website redesign consultation, and found her responsive, competent and proactive during the short process. It was a pleasure dealing with Deborah. 7/5."
+                    </p>
+
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <span>B</span>
+                        </div>
+                        <div class="author-info">
+                            <div class="author-name">Benjamin Sern</div>
+                            <div class="author-role">Financial Services Counsel</div>
+                            <div class="author-rating">
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Achievements Section -->
+    <section id="about" class="achievements-section">
+        <div class="container">
+            <!-- Section Header -->
+            <div class="section-header">
+                <h2 class="section-title">
+                    Our <span class="gradient-text">Achievements</span>
+                </h2>
+                <p class="section-subtitle">
+                    Recognition for our excellence in AI innovation and development
+                </p>
+            </div>
+
+            <!-- Achievements Grid -->
+            <div class="achievements-grid">
+                <div class="achievement-card">
+                    <div class="achievement-emoji">🏆</div>
+                    <h3 class="achievement-title">5 International AI Hackathons</h3>
+                    <p class="achievement-description">Joined 5 international AI hackathons in 1.5 months - showcasing rapid innovation and AI expertise</p>
+                </div>
+
+                <div class="achievement-card">
+                    <div class="achievement-emoji">🥇</div>
+                    <h3 class="achievement-title">Top 12 Finalist</h3>
+                    <p class="achievement-description">Alibabacloud Indonesia Hackathon 2025</p>
+                </div>
+
+                <div class="achievement-card">
+                    <div class="achievement-emoji">🌟</div>
+                    <h3 class="achievement-title">Top Global Business 2024</h3>
+                    <p class="achievement-description">Great Companies - Web & Mobile App Development</p>
+                </div>
+
+                <div class="achievement-card">
+                    <div class="achievement-emoji">🚀</div>
+                    <h3 class="achievement-title">Finalist</h3>
+                    <p class="achievement-description">Merry Riana Entrepreneur of The Year Award 2023</p>
+                </div>
+
+                <div class="achievement-card">
+                    <div class="achievement-emoji">💡</div>
+                    <h3 class="achievement-title">Top 20 Finalist</h3>
+                    <p class="achievement-description">Upward 2023 by Bandung Techno Park</p>
+                </div>
+
+                <div class="achievement-card">
+                    <div class="achievement-emoji">⚡</div>
+                    <h3 class="achievement-title">Top 120 Finalist</h3>
+                    <p class="achievement-description">East Ventures Hackathon Competition</p>
+                </div>
+            </div>
+
+            <!-- Community Section -->
+            <div class="community-section">
+                <div class="section-header">
+                    <h2 class="section-title">
+                        <span class="holographic-text">Giving Back</span> to Society
+                    </h2>
+                    <p class="section-subtitle">
+                        We believe in making a positive impact beyond technology. We are committed to <span class="text-primary">giving back 10% of our revenue</span> by supporting orphanages and religious institutions in our community.
+                    </p>
+                </div>
+
+                <div class="community-card">
+                    <div class="community-content">
+                        <!-- Image -->
+                        <div class="community-image">
+                            <img src="public/lovable-uploads/76581e5f-e568-40ca-85bc-2c3ce2abfb61.png" alt="Deborah Tech giving back to community" class="community-img">
+                        </div>
+                        
+                        <!-- Content */
+                        <div class="community-text">
+                            <p class="community-description">
+                                Our mission extends beyond profit - we're dedicated to helping orphanages provide better care and education, and supporting religious institutions in serving their communities.
+                            </p>
+                            
+                            <div class="community-values">
+                                <div class="value-item">
+                                    <div class="value-icon">🤝</div>
+                                    <div class="value-label">Giving Back</div>
+                                </div>
+                                <div class="value-item">
+                                    <div class="value-icon">👥</div>
+                                    <div class="value-label">Community</div>
+                                </div>
+                                <div class="value-item">
+                                    <div class="value-icon">💝</div>
+                                    <div class="value-label">Support</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <!-- Main CTA Section -->
+            <div class="section-header">
+                <h2 class="contact-title">
+                    Let's Build Something <span class="gradient-text">Amazing</span>
+                </h2>
+                <p class="contact-subtitle">
+                    Ready to transform your business with AI? Get in touch and let's discuss your project.
+                </p>
+            </div>
+
+            <!-- Contact Cards -->
+            <div class="contact-cards">
+                <div class="contact-card">
+                    <div class="contact-icon">📧</div>
+                    <h3 class="contact-method">Email</h3>
+                    <a href="mailto:deborahhuda8@gmail.com" class="contact-link">
+                        deborahhuda8@gmail.com
+                    </a>
+                </div>
+
+                <div class="contact-card">
+                    <div class="contact-icon">📞</div>
+                    <h3 class="contact-method">Phone</h3>
+                    <a href="tel:+6282144234649" class="contact-link">
+                        +62 821-4423-4649
+                    </a>
+                </div>
+
+                <div class="contact-card">
+                    <div class="contact-icon">💬</div>
+                    <h3 class="contact-method">Let's Chat</h3>
+                    <a href="mailto:deborahhuda8@gmail.com" class="btn btn-cta contact-btn">Start Your AI Project</a>
+                </div>
+            </div>
+
+            <!-- Large CTA Section -->
+            <div class="final-cta">
+                <!-- Background Effects -->
+                <div class="cta-bg-effects">
+                    <div class="cta-blob cta-blob-1"></div>
+                    <div class="cta-blob cta-blob-2"></div>
+                </div>
+                
+                <div class="cta-content">
+                    <h3 class="cta-title gradient-text">
+                        Ready to Transform Your Business?
+                    </h3>
+                    <p class="cta-description">
+                        Join leading organizations who trust us to deliver cutting-edge AI solutions
+                    </p>
+                    <a href="mailto:deborahhuda8@gmail.com" class="btn btn-cta btn-xl">Get Started Today</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <!-- Left Side - Brand -->
+                <div class="footer-brand">
+                    <div class="footer-logo">
+                        <span class="gradient-text">deborah tech</span>
+                    </div>
+                    <p class="footer-description">
+                        Transform Your Business with Intelligent AI Solutions. We specialize in creating custom AI applications, chatbots, and automation systems.
+                    </p>
+                </div>
+
+                <!-- Right Side - Contact Info -->
+                <div class="footer-contact">
+                    <h4 class="contact-title">Contact Information</h4>
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <span>Indonesia</span>
+                        </div>
+                        <div class="contact-item">
+                            <a href="mailto:deborahhuda8@gmail.com" class="footer-link">
+                                deborahhuda8@gmail.com
+                            </a>
+                        </div>
+                        <div class="contact-item">
+                            <a href="tel:+6282144234649" class="footer-link">
+                                +62 821-4423-4649
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Bottom -->
+            <div class="footer-bottom">
+                <p class="copyright">
+                    © 2025 PT Deborah Teknologi Berjaya. All rights reserved.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+</html>
