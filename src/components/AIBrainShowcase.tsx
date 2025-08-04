@@ -64,41 +64,6 @@ const AIBrainShowcase = () => {
           </div>
         </div>
 
-        {/* AI Capabilities Grid */}
-        <div className="grid md:grid-cols-3 gap-8 mt-16">
-          <div className="glass rounded-xl p-6 text-center ai-glow">
-            <div className="text-3xl mb-4">🧠</div>
-            <h3 className="text-xl font-bold mb-2 holographic-text">Neural Processing</h3>
-            <p className="text-muted-foreground">Advanced neural networks process complex data patterns in real-time</p>
-            <div className="mt-3 flex justify-center gap-1">
-              <div className="w-2 h-2 bg-primary rounded-full animate-ping"></div>
-              <div className="w-2 h-2 bg-accent rounded-full animate-ping" style={{animationDelay: '0.3s'}}></div>
-              <div className="w-2 h-2 bg-secondary rounded-full animate-ping" style={{animationDelay: '0.6s'}}></div>
-            </div>
-          </div>
-
-          <div className="glass rounded-xl p-6 text-center ai-glow">
-            <div className="text-3xl mb-4">⚡</div>
-            <h3 className="text-xl font-bold mb-2 holographic-text">Lightning Processing</h3>
-            <p className="text-muted-foreground">Millisecond response times with distributed AI architecture</p>
-            <div className="mt-3 flex justify-center gap-1">
-              <div className="w-2 h-2 bg-accent rounded-full animate-ping"></div>
-              <div className="w-2 h-2 bg-primary rounded-full animate-ping" style={{animationDelay: '0.3s'}}></div>
-              <div className="w-2 h-2 bg-secondary rounded-full animate-ping" style={{animationDelay: '0.6s'}}></div>
-            </div>
-          </div>
-
-          <div className="glass rounded-xl p-6 text-center ai-glow">
-            <div className="text-3xl mb-4">🔮</div>
-            <h3 className="text-xl font-bold mb-2 holographic-text">Predictive Analytics</h3>
-            <p className="text-muted-foreground">Machine learning algorithms predict outcomes with 99.9% accuracy</p>
-            <div className="mt-3 flex justify-center gap-1">
-              <div className="w-2 h-2 bg-secondary rounded-full animate-ping"></div>
-              <div className="w-2 h-2 bg-accent rounded-full animate-ping" style={{animationDelay: '0.3s'}}></div>
-              <div className="w-2 h-2 bg-primary rounded-full animate-ping" style={{animationDelay: '0.6s'}}></div>
-            </div>
-          </div>
-        </div>
       </div>
     </section>
   );
