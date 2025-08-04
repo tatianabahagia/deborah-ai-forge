@@ -1,5 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Sparkles } from "lucide-react";
+import aiBrainHero from "@/assets/ai-brain-hero.jpg";
+import floatingAiBrain from "@/assets/floating-ai-brain.jpg";
 
 const HeroSection = () => {
   return (
@@ -11,6 +13,24 @@ const HeroSection = () => {
         <div className="absolute top-1/4 left-1/4 w-72 h-72 bg-primary/20 rounded-full blur-3xl animate-float animate-neural-sync"></div>
         <div className="absolute bottom-1/4 right-1/4 w-96 h-96 bg-secondary/20 rounded-full blur-3xl animate-float" style={{animationDelay: '2s'}}></div>
         <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-64 h-64 bg-accent/20 rounded-full blur-3xl animate-float" style={{animationDelay: '4s'}}></div>
+        
+        {/* Floating AI Brain */}
+        <div className="absolute top-20 right-20 w-48 h-48 animate-float animate-neural-sync opacity-80">
+          <img 
+            src={aiBrainHero} 
+            alt="AI Brain" 
+            className="w-full h-full object-contain filter drop-shadow-2xl"
+          />
+        </div>
+        
+        {/* Large AI Brain Background */}
+        <div className="absolute bottom-10 left-10 w-64 h-64 animate-float opacity-60" style={{animationDelay: '3s'}}>
+          <img 
+            src={floatingAiBrain} 
+            alt="Floating AI Brain" 
+            className="w-full h-full object-contain filter drop-shadow-2xl"
+          />
+        </div>
         
         {/* AI Data Flow Elements */}
         <div className="absolute top-20 left-10 w-4 h-4 bg-primary rounded-full animate-data-flow" style={{animationDelay: '1s'}}></div>
