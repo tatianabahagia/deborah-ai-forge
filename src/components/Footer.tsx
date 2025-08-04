@@ -18,6 +18,9 @@ const Footer = () => {
             <h4 className="font-semibold text-foreground mb-4">Contact Information</h4>
             <div className="space-y-2 text-muted-foreground">
               <div>
+                <span>Indonesia</span>
+              </div>
+              <div>
                 <a href="mailto:deborahhuda8@gmail.com" className="hover:text-primary transition-colors">
                   deborahhuda8@gmail.com
                 </a>
