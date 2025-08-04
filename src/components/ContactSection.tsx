@@ -42,8 +42,8 @@ const ContactSection = () => {
           <div className="glass glass-hover rounded-xl p-8 text-center group">
             <MessageCircle className="w-12 h-12 text-primary mx-auto mb-4 group-hover:scale-110 transition-transform" />
             <h3 className="text-xl font-bold mb-2">Let's Chat</h3>
-            <Button variant="cta" className="mt-2">
-              Start Your AI Project
+            <Button variant="cta" className="mt-2" asChild>
+              <a href="mailto:deborahhuda8@gmail.com">Start Your AI Project</a>
             </Button>
           </div>
         </div>
@@ -63,8 +63,8 @@ const ContactSection = () => {
             <p className="text-xl text-muted-foreground mb-8 max-w-2xl mx-auto">
               Join leading organizations who trust us to deliver cutting-edge AI solutions
             </p>
-            <Button variant="cta" size="lg" className="text-lg px-8 py-4">
-              Get Started Today
+            <Button variant="cta" size="lg" className="text-lg px-8 py-4" asChild>
+              <a href="mailto:deborahhuda8@gmail.com">Get Started Today</a>
             </Button>
           </div>
         </div>

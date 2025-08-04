@@ -94,9 +94,11 @@ const PortfolioSection = () => {
                   <Play className="w-4 h-4 mr-2 group-hover:scale-110 transition-transform" />
                   Watch Demo Video
                 </Button>
-                <Button variant="glass" size="lg">
-                  <ExternalLink className="w-4 h-4 mr-2" />
-                  Get My AI Solution
+                <Button variant="glass" size="lg" asChild>
+                  <a href="mailto:deborahhuda8@gmail.com">
+                    <ExternalLink className="w-4 h-4 mr-2" />
+                    Get My AI Solution
+                  </a>
                 </Button>
               </div>
             </div>
@@ -166,8 +168,12 @@ const PortfolioSection = () => {
                 Let's create intelligent AI applications powered by <span className="text-primary font-semibold">machine learning</span> that transform your business processes and enhance customer experiences with <span className="text-accent font-semibold">enterprise-grade automation</span>
               </p>
               <div className="flex gap-4 justify-center">
-                <Button variant="cta" size="lg">Start Your AI Project</Button>
-                <Button variant="glass" size="lg" className="ai-glow">Schedule AI Consultation</Button>
+                <Button variant="cta" size="lg" asChild>
+                  <a href="mailto:deborahhuda8@gmail.com">Start Your AI Project</a>
+                </Button>
+                <Button variant="glass" size="lg" className="ai-glow" asChild>
+                  <a href="mailto:deborahhuda8@gmail.com">Schedule AI Consultation</a>
+                </Button>
               </div>
             </div>
           </div>
