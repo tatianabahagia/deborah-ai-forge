@@ -1,6 +1,16 @@
 import { Star, Quote } from "lucide-react";
+import { useState } from "react";
 
 const TestimonialsSection = () => {
+  const [expandedTestimonials, setExpandedTestimonials] = useState<{[key: number]: boolean}>({});
+
+  const toggleExpanded = (index: number) => {
+    setExpandedTestimonials(prev => ({
+      ...prev,
+      [index]: !prev[index]
+    }));
+  };
+
   const testimonials = [
     {
       name: "Rasidah Johar",
@@ -12,10 +22,11 @@ const TestimonialsSection = () => {
     {
       name: "Andrew Lo", 
       role: "Entrepreneurial Management Consultant, Practitioner & Trainer in Retail, Food Services and Franchising",
-      content: "I highly recommend Deborah Tatia, a dynamic team of young entrepreneurs specializing in mobile application and website development. Their swift, efficient, and customized approach to digital solutions...",
+      shortContent: "I highly recommend Deborah Tatia, a dynamic team of young entrepreneurs specializing in mobile application and website development. Their swift, efficient, and customized approach to digital solutions...",
+      fullContent: "I highly recommend Deborah Tatia, a dynamic team of young entrepreneurs specializing in mobile application and website development. Their swift, efficient, and customized approach to digital solutions has proven to be a game-changer for my client, and I am confident they can bring the same value to your business.\n\nThrough remarkable speed and efficiency. They are able to deliver well within the agreed-upon timelines, showcasing not only technical capability but a genuine commitment to client satisfaction.\n\nWhat really sets them apart is their ability to tailor solutions to specific business needs. They took the time to understand my client's goals, ensuring a personalized development approach. This flexibility turns the project into a strategic partnership focused on achieving tangible outcomes. Their transparent and reasonable fees also offers a clear understanding of the value receive, contributing significantly to a positive return on investment.\n\nI recently introduced Deborah Tatia to our partners, and the results have exceeded expectations. The application they developed not only met but surpassed our initial expectations. I am also equally impressed with their professionalism and dedication. Clear and consistent communication, coupled with a proactive approach to address concerns, has fostered a collaborative and transparent working relationship crucial for the client's successful project outcome.\n\nIf you are in search of a team that can deliver fast, efficient, and customized digital solutions at reasonable (inexpensive) fees, Deborah Tatia is the ideal choice. They have consistently provided exceptional value for money, and I believe they will continue to elevate businesses through their innovative approach.\n\nIn conclusion, if you ever need services for website & mobile app development, Deborah Tatia & team should be in your shortlist for consideration! Highly recommended!\n\nBest regards, Andrew",
       initial: "A",
       rating: 5,
-      readMore: true
+      hasReadMore: true
     },
     {
       name: "Benjamin Sern",
@@ -72,12 +83,24 @@ const TestimonialsSection = () => {
               <Quote className="w-8 h-8 text-primary/50 mb-4" />
               
               <p className="text-foreground mb-6 leading-relaxed italic">
-                "{testimonial.content}"
-                {testimonial.readMore && (
-                  <button className="text-primary ml-2 hover:text-primary/80">
-                    Read more
-                  </button>
-                )}
+                "{testimonial.hasReadMore ? (
+                  <>
+                    {expandedTestimonials[index] ? 
+                      testimonial.fullContent?.split('\n').map((line, i) => (
+                        <span key={i}>{line}<br /></span>
+                      )) : 
+                      testimonial.shortContent
+                    }
+                    <button 
+                      onClick={() => toggleExpanded(index)}
+                      className="text-primary ml-2 hover:text-primary/80 font-semibold"
+                    >
+                      {expandedTestimonials[index] ? 'Read less' : 'Read more'}
+                    </button>
+                  </>
+                ) : (
+                  testimonial.content
+                )}"
               </p>
 
               <div className="flex items-center gap-4">
