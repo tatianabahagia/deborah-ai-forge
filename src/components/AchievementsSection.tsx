@@ -75,24 +75,37 @@ const AchievementsSection = () => {
             </p>
           </div>
 
-          <div className="glass rounded-2xl p-12 text-center">
-            <div className="max-w-4xl mx-auto">
-              <p className="text-lg text-muted-foreground mb-8 leading-relaxed">
-                Our mission extends beyond profit - we're dedicated to helping orphanages provide better care and education, and supporting religious institutions in serving their communities.
-              </p>
+          <div className="glass rounded-2xl overflow-hidden">
+            <div className="grid md:grid-cols-2 gap-0">
+              {/* Image */}
+              <div className="relative">
+                <img 
+                  src="/lovable-uploads/76581e5f-e568-40ca-85bc-2c3ce2abfb61.png"
+                  alt="Deborah Tech giving back to community"
+                  className="w-full h-full object-cover min-h-[300px]"
+                />
+                <div className="absolute inset-0 bg-gradient-to-r from-transparent to-background/20"></div>
+              </div>
               
-              <div className="grid md:grid-cols-3 gap-8">
-                <div className="text-center">
-                  <div className="text-2xl mb-2">🤝</div>
-                  <div className="font-semibold text-foreground">Giving Back</div>
-                </div>
-                <div className="text-center">
-                  <div className="text-2xl mb-2">👥</div>
-                  <div className="font-semibold text-foreground">Community</div>
-                </div>
-                <div className="text-center">
-                  <div className="text-2xl mb-2">💝</div>
-                  <div className="font-semibold text-foreground">Support</div>
+              {/* Content */}
+              <div className="p-12 flex flex-col justify-center">
+                <p className="text-lg text-muted-foreground mb-8 leading-relaxed">
+                  Our mission extends beyond profit - we're dedicated to helping orphanages provide better care and education, and supporting religious institutions in serving their communities.
+                </p>
+                
+                <div className="grid grid-cols-3 gap-8">
+                  <div className="text-center">
+                    <div className="text-2xl mb-2">🤝</div>
+                    <div className="font-semibold text-foreground">Giving Back</div>
+                  </div>
+                  <div className="text-center">
+                    <div className="text-2xl mb-2">👥</div>
+                    <div className="font-semibold text-foreground">Community</div>
+                  </div>
+                  <div className="text-center">
+                    <div className="text-2xl mb-2">💝</div>
+                    <div className="font-semibold text-foreground">Support</div>
+                  </div>
                 </div>
               </div>
             </div>
