@@ -30,7 +30,15 @@ const Navigation = () => {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <div className="flex-shrink-0">
-            <span className="text-2xl font-bold gradient-text">Deborah Tech</span>
+            <div className="flex items-center gap-3">
+              <div className="relative">
+                <div className="w-10 h-10 rounded-lg bg-gradient-primary flex items-center justify-center animate-ai-pulse">
+                  <span className="text-white font-bold text-lg">AI</span>
+                </div>
+                <div className="absolute inset-0 rounded-lg bg-gradient-primary opacity-30 animate-ping"></div>
+              </div>
+              <span className="text-2xl font-bold holographic-text">Deborah Tech</span>
+            </div>
           </div>
 
           {/* Desktop Navigation */}
