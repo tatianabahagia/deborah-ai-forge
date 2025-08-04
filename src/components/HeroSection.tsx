@@ -67,11 +67,21 @@ const HeroSection = () => {
 
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-            <Button variant="cta" size="lg" className="group">
+            <Button 
+              variant="cta" 
+              size="lg" 
+              className="group"
+              onClick={() => document.getElementById('services')?.scrollIntoView({ behavior: 'smooth' })}
+            >
               Explore Our AI Services
               <ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform" />
             </Button>
-            <Button variant="glass" size="lg" className="ai-glow">
+            <Button 
+              variant="glass" 
+              size="lg" 
+              className="ai-glow"
+              onClick={() => document.getElementById('portfolio')?.scrollIntoView({ behavior: 'smooth' })}
+            >
               View AI Portfolio
             </Button>
           </div>
