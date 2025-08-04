@@ -104,18 +104,24 @@ const PortfolioSection = () => {
             <div className="relative">
               <div className="glass rounded-xl overflow-hidden ai-glow">
                 <div className="relative">
-                  <img 
-                    src={aiTravelDemo} 
-                    alt="AI Travel Itinerary Generator Demo"
-                    className="w-full h-96 object-cover"
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent"></div>
-                  <div className="absolute bottom-4 left-4 right-4">
+                  {/* YouTube Video Embed */}
+                  <div className="aspect-video">
+                    <iframe
+                      src="https://www.youtube.com/embed/8KXOF53Jx6Y"
+                      title="AI Travel Itinerary Generator Demo"
+                      className="w-full h-full rounded-lg"
+                      frameBorder="0"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                      allowFullScreen
+                    ></iframe>
+                  </div>
+                  
+                  <div className="absolute bottom-4 left-4 right-4 bg-black/50 backdrop-blur-sm rounded-lg p-3">
                     <div className="flex items-center gap-2 mb-2">
                       <div className="w-3 h-3 bg-primary rounded-full animate-ping"></div>
-                      <span className="text-white text-sm font-medium">AI Processing Live</span>
+                      <span className="text-white text-sm font-medium">AI Demo Video</span>
                     </div>
-                    <p className="text-white/80 text-sm">Real-time AI travel planning in action</p>
+                    <p className="text-white/80 text-sm">Watch our AI travel planning system in action</p>
                   </div>
                 </div>
               </div>
