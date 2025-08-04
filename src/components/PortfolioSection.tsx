@@ -144,10 +144,6 @@ const PortfolioSection = () => {
                     </div>
                   </div>
                   <p className="text-muted-foreground text-sm mb-4">{project.description}</p>
-                  <Button variant="ghost" size="sm" className="w-full group">
-                    Learn More
-                    <ExternalLink className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
-                  </Button>
                 </div>
               </div>
             ))}
