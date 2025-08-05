@@ -44,7 +44,7 @@ const TestimonialsSection = () => {
   ];
 
   return (
-    <section className="py-24 relative">
+    <section id="testimony" className="py-24 relative">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Trusted By */}
         <div className="text-center mb-16">

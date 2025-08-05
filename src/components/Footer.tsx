@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const Footer = () => {
   return (
     <footer className="py-12 border-t border-glass-border">
@@ -29,6 +31,11 @@ const Footer = () => {
                 <a href="tel:+6282144234649" className="hover:text-primary transition-colors">
                   +62 821-4423-4649
                 </a>
+              </div>
+              <div>
+                <Link to="https://www.linkedin.com/company/deborahtech/" className="hover:text-primary transition-colors">
+                  LinkedIn
+                </Link>
               </div>
             </div>
           </div>

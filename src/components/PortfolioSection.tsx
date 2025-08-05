@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { ExternalLink, Play, MapPin, MessageSquare, Calendar, DollarSign, Navigation, Clock, Bot } from "lucide-react";
+import { ExternalLink, Play, MapPin, MessageSquare, Calendar, DollarSign, Navigation, Clock, Bot, Linkedin } from "lucide-react";
 import aiTravelDemo from "@/assets/ai-travel-demo.jpg";
 
 const PortfolioSection = () => {
@@ -90,10 +90,10 @@ const PortfolioSection = () => {
               </div>
 
               <div className="flex gap-4">
-                <Button variant="gradient" size="lg" className="group">
-                  <Play className="w-4 h-4 mr-2 group-hover:scale-110 transition-transform" />
+                {/* <Button variant="gradient" size="lg" className="group">
+                  <Linkedin className="w-4 h-4 mr-2 group-hover:scale-110 transition-transform" />
                   Watch Demo Video
-                </Button>
+                </Button> */}
                 <Button variant="glass" size="lg" asChild>
                   <a href="mailto:deborahhuda8@gmail.com">
                     <ExternalLink className="w-4 h-4 mr-2" />
@@ -167,7 +167,7 @@ const PortfolioSection = () => {
               <p className="text-muted-foreground mb-6">
                 Let's create intelligent AI applications powered by <span className="text-primary font-semibold">machine learning</span> that transform your business processes and enhance customer experiences with <span className="text-accent font-semibold">enterprise-grade automation</span>
               </p>
-              <div className="flex gap-4 justify-center">
+              <div className="flex gap-4 justify-center flex-wrap">
                 <Button variant="cta" size="lg" asChild>
                   <a href="mailto:deborahhuda8@gmail.com">Start Your AI Project</a>
                 </Button>
